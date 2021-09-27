@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Hind", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0b013c;
+}
+
+.img-logo {
+    width: 75%;
+    height: 100vh;
+}
+
+.btn-header {
+    position: absolute;
+    margin: 20px;
+    padding: 5px 10px;
+    border: 2px solid #FFFFFF;
+    background-color: #0b013c;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.header-text {
+    position: absolute;
+    top: 200px;
+    z-index: 2;
+    line-height: 100px;
+}
+
+.space-text {
+    font-size: 96px;
+}
+
+.text-research {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.p-text {
+    width: 410px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.header-img {
+    background-image: url(../img/header-bg.png);
+    position: absolute;
+    left: -50px;
+    width: 95%;
+    height: 100%;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    font-family: "Hind", sans-serif;
+}
+
+.text-input {
+    padding-left: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.btn-submit {
+    width: 100px;
+    height: 35px;
+    background-color: #f8cb8a;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #f6bb66;
+}
+
+.section,
+.section-card,
+.img-section,
+.section-text,
+.third-card,
+.footer,
+.footer-1,
+.footer-2,
+.space {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.section {
+    align-content: center;
+    text-align: center;
+    background-color: #fefaf3;
+
+}
+
+.section-card {
+    width: 900px;
+    height: 350px;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: #111111;
+}
+
+.section-upper-heading {
+    font-size: 20px;
+}
+
+.section-heading {
+    font-size: 46px;
+    color: #0b013c;
+}
+
+.line {
+    width: 100px;
+    height: 10px;
+    border: none;
+    margin: 0 auto;
+    background-color: #f8cb8a;
+}
+
+.left-line {
+    margin-left: 0;
+}
+
+.center-text {
+    line-height: 25px;
+    padding: 15px;
+    font-size: 16px;
+    font-style: italic;
+    color: #808080;
+}
+
+.second-card {
+    width: 900px;
+    height: 450px;
+    background-color: #FFFFFF;
+}
+
+.img-section {
+    background-image: url(../img/section-1.jpeg);
+    width: 500px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-text {
+    width: 380px;
+    height: 450px;
+    padding: 25px;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.second-text {
+    padding: 0px;
+    white-space: pre-line;
+    word-spacing: 1.5px;
+}
+
+.third-card {
+    width: 900px;
+    height: 450px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bottom-img {
+    width: 400px;
+    padding: 0;
+    text-align: left;
+}
+
+.bottom-text {
+    display: block;
+    height: 80px;
+    width: 420px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.bottom-1 {
+    background-image: url(../img/section-2.jpeg);
+}
+
+.bottom-2 {
+    background-image: url(../img/section-3.jpeg);
+}
+
+.bottom-1,
+.bottom-2 {
+    width: 450px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-1 {
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    background-color: #0b013c;
+    background-image: url(../img/space-bg.png);
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.footer-2 {
+    height: 400px;
+    background-color: #111111;
+    background-image: url(../img/footer-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.footer-planet {
+    width: 500px;
+    height: 500px;
+    background-image: url(../img/footer-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contact {
+    font-size: 16px;
+    white-space: pre-line;
+}
+
+.footer-heading {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
